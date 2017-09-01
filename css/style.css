@@ -1,9 +1,62 @@
-.body{
+body{
 	font-family: cursive;
-	font-size: 50px;
+}
+
+
+/* style for home */
+.nav-item{
+	font-size: 20px;
+	color: #000;
 }
 
 .footer-container{
 	background-color: black;
 
+}
+
+/* style for quienes somos*/
+.text-who{
+	text-align: right;
+}
+
+h1{
+	margin-top: 30px;
+}
+p{
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+.img-who{
+	
+}
+
+.puerta{
+	width: 850px;
+	height: 550px;
+}
+
+/* style for contacto*/
+.datos{
+
+	height: 500px;
+}
+
+.reserva{
+	
+}
+
+h1.reserva{
+	text-align: center;
+}
+
+.contacto{
+	
+	text-align: center;
+	margin-top: 25px;
+}
+
+.carta{
+	height: 600px;
+	background-color: grey;
 }
