@@ -6,12 +6,28 @@ body{
 /* style for home */
 .nav-item{
 	font-size: 20px;
-	color: #000;
 }
 
+.nav-link{
+	color: #13832f;
+}
 .footer-container{
-	background-color: black;
+	background-color: #e2e2e2;
 
+}
+
+.redes{
+	height: 50px;
+}
+
+.iconos{
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.pie{
+	color: #13832f;
 }
 
 /* style for quienes somos*/
@@ -21,6 +37,7 @@ body{
 
 h1{
 	margin-top: 30px;
+	color:#13832f;  
 }
 p{
 	font-size: 18px;
@@ -37,26 +54,107 @@ p{
 }
 
 /* style for contacto*/
-.datos{
-
-	height: 500px;
-}
-
-.reserva{
-	
-}
-
-h1.reserva{
-	text-align: center;
-}
 
 .contacto{
 	
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 125px;
 }
 
-.carta{
+.contacto> h2{
+	color: #13832f;
+}
+
+.enviar{
+	margin-left: 150px;
+	margin-bottom: 50px;
+	border-color: #13832f;
+	background-color: #e2e2e2; 
+	margin-top: 20px;
+	color: #13832f;
+
+}
+
+/* style for menu*/
+
+.menu-cuerpo{
+	background-color: #e2e2e2;
+}
+.menu{
 	height: 600px;
-	background-color: grey;
+	background-color:#fff;
+	border-radius: 5%;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.pedido{
+	height: 600px;
+	background-color: #fff;
+	border-radius: 5%;
+	margin-top: 10px;
+}
+
+.menu > h2{
+	color:#13832f;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.pedido > h2{
+	color: #13832f;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.btn-primary{
+	margin-left: 45px;
+	border-color: #13832f;
+	background-color: #e2e2e2; 
+	margin-top: 20px;
+	color: #13832f;
+}
+
+#platos{
+	margin-top: 30px;
+}
+
+.foto{
+	width: 150px;
+	height:150px;
+	border-radius: 10%;
+}
+
+.nombre{
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.precio > p{
+	
+	height: 25px;
+}
+
+.btn-success{
+	height: 25px;
+	float: right;
+	padding: 0px;
+	margin-left: 30px;
+}
+
+
+.number{
+	margin: 0px;	
+}
+
+#comanda{
+	margin-top: 20px;
+}
+
+#clear{
+	margin-left: 45px;
+	border-color: #13832f;
+	background-color: #e2e2e2; 
+	margin-top: 20px;
+	color: #13832f;
 }

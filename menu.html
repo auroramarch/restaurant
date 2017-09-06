@@ -6,11 +6,12 @@
 	<title>Menu</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/miFavicon.png"/>
 </head>
 <body>
 	<header>
 	<nav class="container-fluid main-menu">
-		<ul class="nav">
+		<ul class="nav justify-content-center">
   			<li class="nav-item">
     			<a class="nav-link active" href="home.html">Home</a>
   			</li>
@@ -20,7 +21,7 @@
  			</li>
 
   			<li class="nav-item">
-    			<a class="nav-link" href="menu.html">Menu</a>
+    			<a class="nav-link" href="menu.html">Menú</a>
   			</li>
 
   			<li class="nav-item">
@@ -30,9 +31,10 @@
 	</nav>	
 	</header>
 
-	<div class="container-fluid">
+	<div class="container-fluid menu-cuerpo">
 		<div class="row carta">
-			<div class="col-6">	
+			<div class="col-1"></div>
+			<div id="menu" class="col-6 menu">	
 				<h2>Menú</h2>
 				<button type="button" class="btn btn-primary" id="Entrantes">Entrantes
 				</button>
@@ -42,46 +44,37 @@
 				</button>
 				<button type="button" class="btn btn-primary" id="Bebidas">Bebidas
 				</button>
-				<div class="container">
-					<div class="row " id="platos">
-						<div class="col-4">
-							<img src="" alt="">
-						</div>
-						<div class="col-6">
-							<div class="row nombre">
-								<p>ss</p>
-							</div>
-
-							<div class="row descripcion">
-								<p>ee</p>
-							</div>
-
-							<div class="row precio">
-								<p>uu</p>
-							</div>
-						</div>
-					</div>
+				<div class="container" id="platos">
 				</div>
 			</div>
-			<div class="col-4">
+			<div class="col-4 pedido">
 				<h2>Mi pedido</h2>
+				<div class="container cajon">
+					<ul id="comanda">	
+					</ul>
+					<div>
+						<p id="suma"> TOTAL:</p>
+					</div>
+				</div>
+				<div>
+					<button id=clear class="btn btn-primary">ELIMINAR PEDIDO</button>
+				</div>
 			</div>
+			<div class="col-1"></div>
 		</div>
 	</div>
 
-
 	<footer class="footer-container">
 		<div class="container-fluid">
-			<div class="row footer-inner align-items-center">
-				<div class="col">Logo1</div>
-				<div class="col">Logo2</div>
-				<div class="col">Logo3</div>	
+			<div class="row justify-content-center redes">
+				<div class="col-1"><a href="https://www.instagram.com/?hl=es"><img class= "iconos" src="images/insta.png" alt=""></a></div>
+				<div class="col-1"><a href="https://es-es.facebook.com/"><img class= "iconos" src="images/facebook.png" alt=""></a></div>
+				<div class="col-1"><a href="https://twitter.com/"><img class= "iconos" src="images/twitter.png" alt=""></a></div>	
 			</div>
 
-			<div class="row">
-				<p>&copy; 2017 Restaurante conTenedor</p>
-			</div>
-			
+			<div class="row float-right">
+				<p class="pie">&copy; 2017 Restaurante conTenedor</p>
+			</div>	
 		</div>
 	</footer>
 	
